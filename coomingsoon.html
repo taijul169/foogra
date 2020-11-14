@@ -1,0 +1,132 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>zimax.com</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="/assets/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/plugin/css/owl.theme.default.min.css">
+    <!-- date-picker -->
+    <link rel="stylesheet" href="/assets/plugin/css/datepicker.min.css">
+    <!-- google-font-poppins -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/sass/custom.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- scroll-top-indicator -->
+    <a href="#" class="scroll-top-indicator"><i class="fa fa-angle-up"></i></a>
+    <div class="hero-imager-wrapper">
+        <div class="hero-owl-wr">
+            <!-- .hero-image-slider -->
+            <div class="all-slider-wrapper owl-carousel heroSlide owl-theme">
+                <!-- .single-item-slide -->
+                <div class="hero-image-slider animate__fadeOut" style="background-image: url(img/slide/slide4.jpg); height:100vh">
+                  <div class="coomig-musk"></div>
+                </div>
+                <!-- .single-item-slide -->
+                <div class="hero-image-slider animate__fadeOut" style="background-image: url(img/slide/slide3.jpg);height:100vh">
+                    <div class="coomig-musk"></div>
+                </div>
+                <!-- .single-item-slide -->
+                <div class="hero-image-slider animate__fadeOut" style="background-image: url(img/slide/slide1.jpg);height:100vh">
+                    <div class="coomig-musk"></div>
+                </div>
+            </div>
+        </div>
+      <section id="cooming-soon">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 col-lg-10 col-md-10 col-12 col-xl-10 ">
+                    <div class="cooing-soon-wrapper text-center text-white">
+                        <div class="logo-brand my-2">
+                            <img src="/img/bg/logo.svg" alt="logo.svg">
+                        </div>
+                        <h2>We will be back soon!</h2>
+                        <p>Meanwhile, you can make leave your email. We will advice when we will be online!</p>
+                        <div class="cooimg-date-box">
+                            <ul class="d-flex">
+                                <li><span id="countdownDays">-273</span><h6>days</h6></li>
+                                <li><span id="countdownHours">00</span><h6>hours</h6></li>
+                                <li><span id="countdownMinutes">00</span><h6>minutes</h6></li>
+                                <li><span id="countdownSeconds">00</span><h6>seconds</h6></li>
+                            </ul>
+                        </div>
+                        <div class="subscribe-cooming">
+                           <form action="">
+                              <div class="form-group d-flex">
+                                  <input type="text" placeholder="Enter email" class="form-control">
+                                  <input type="submit" value="Subscribe" >
+                              </div>
+                           </form>
+                        </div>
+                    </div>
+                    <div class="social-icons-cooming d-flex justify-content-center">
+                        <ul class="d-flex">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    </div>  
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="/assets/plugin/js/owl.carousel.min.js"></script>
+    <script src="/assets/plugin/js/jquery.sticky.js"></script>
+    <script src="script.js"></script>
+    <script src="home.js"></script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element
+            document.getElementById("countdownDays").innerText = days;
+            document.getElementById("countdownHours").innerText = hours;
+            document.getElementById("countdownMinutes").innerText = minutes;
+            document.getElementById("countdownSeconds").innerText = seconds;
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+
+</body>
+</html>

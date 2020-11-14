@@ -1,0 +1,178 @@
+.boost-your-booking-wrapper {
+  background: #fff;
+  padding: 30px 40px;
+}
+.boost-your-booking-wrapper h2 {
+  font-size: 28px;
+  color: #f05a24;
+  margin-bottom: 15px;
+}
+.boost-your-booking-wrapper span {
+  font-size: 22px;
+  margin-bottom: 25px;
+  display: block;
+  color: #656565;
+}
+.boost-your-booking-wrapper p {
+  line-height: 28px;
+  color: #656565;
+}
+.boost-icon-area-wrapper img {
+  width: 240px;
+  height: 240px;
+}
+.boost-icon-area-wrapper {
+  text-align: center;
+  padding: 72px;
+}
+/* pricing-area */
+.price-area {
+  background: #ffffff;
+}
+.single-pricing-area .card-body span {
+  font-size: 26px;
+  background: #777777;
+  color: #fff;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+  line-height: 90px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.single-pricing-area .card-body {
+  margin: 30px;
+}
+.single-pricing-area a {
+  background: #f0f0f0;
+  color: #000;
+  border-radius: 3px;
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+.single-pricing-area a:hover {
+  background: #f05a24;
+  color: #fff;
+}
+.card-body b {
+  color: #545454;
+  font-weight: 600;
+}
+.single-pricing-area .card-header {
+  padding-top: 20px;
+}
+.single-pricing-area .card-header h2 {
+  margin-bottom: 0px;
+}
+.single-pricing-area p {
+  line-height: 30px;
+}
+.single-pricing-area.active-price .card {
+  border: 3px solid #f05a24;
+}
+.single-pricing-area.active-price .card-header {
+  background: #f05a24;
+  color: #fff;
+}
+.single-pricing-area.active-price span {
+  background: #f05a24;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+.single-pricing-area.active-price a {
+  background: #f05a24;
+  color: #fff;
+}
+#restaurant-data{
+    position: relative;
+    width: 100%;
+    height: 680px;
+}
+.bg-musk {
+	height: 680px;
+	/* background-color: #DFDBE5; */
+	background-repeat: repeat;
+	width: 100%;
+	position: absolute;
+	opacity: 0.1;
+}
+.bg-musk::before {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: #4C4C4C;
+	opacity: 0.5;
+	content: "";
+	top: 0;
+	left: 0;
+}
+.restaurant-data-form-wrapper {
+	position: absolute;
+	top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.restaurant-data-form-wrapper form{
+    display:block;
+    position: relative;
+}
+.success-message-wrapper{
+    display: none;
+}
+.w-half{
+    display: flex;
+    justify-content: space-between;
+}
+.w-half li:first-child {
+	margin-right: 30px;
+}
+.form-heading {
+	padding: 35px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.form-heading h2 {
+	font-size: 24px;
+}
+.restaurant-data-form-wrapper .form-group label {
+	font-size: 18px;
+}
+.w-half li:last-child {
+	width: 62%;
+}
+.restaurant-data-form-wrapper button {
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	background: #F05A24;
+	margin-top: 40px;
+	border: none;
+	padding: 8px 20px;
+	font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    border-radius: 3px;
+}
+.erro-msg-box span {
+	display: block;
+	font-size: 16px;
+	color: #d52323;
+}
+.loading-area {
+	position: absolute;
+	bottom: 0;
+    right: 0;
+    display: none;
+}
+.loading-area img {
+	width: 30px;
+	background: transparent;
+	height: 30px;
+}

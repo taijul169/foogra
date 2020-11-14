@@ -1,0 +1,787 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>zimax.com</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="/assets/plugin/css/datepicker.min.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="/assets/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/plugin/css/owl.theme.default.min.css">
+    <!-- google-font-poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <!-- main-css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/sass/custom.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+</head>
+
+<body>
+    <!-- header-area-start -->
+    <header class="header-all">
+        <div class="container">
+            <div class="menu-icon">
+                <a href="#" id="ResmenuIcon"><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="logo-area">
+                <h4>Foogra</h4>
+            </div>
+            <div class="icon-menu">
+                <ul class="d-flex">
+                    <li><a href="#"><i class="fa fa-sign-in"></i></a></li>
+                    <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+                </ul>
+            </div>
+            <!-- main-menu-start -->
+            <nav class="nav-header  py-2 " id="sidenav">
+    
+                <div class="logo-area" id="nav-logo">
+                    <h4>Foogra</h4>
+                    <a href="#" id="nav-close"><i class="fa fa-close"></i></a>
+                </div>
+    
+                <ul class="resMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li onclick="subMenuExpan('subMenu')"><a href="#">Listing<i class="fa fa-angle-down"
+                                id="resPonsivMenuLinkIcon"></i></a>
+                        <!-- first Submenu -->
+                        <ul class="subMenu">
+                            <li><a href="search.html">Search</a></li>
+                            <li><a href="grid-listing-filterscol.html">Search2</a></li>
+                            <li><a href="submit-restaurant.html">Submit Restaurant</a></li>
+                            <li><a href="submit-rider.html">Submit Rider</a></li>
+                            <li><a href="leave-review.html">Leave-review</a></li>
+                            <li>
+                                <!-- fist-submenu of Sub-->
+                                <ul class="subMenu subOfsubMenu" id="SecondMenu">
+                                    <li><a href="index.html">Page1</a></li>
+                                    <li><a href="index.html">Page2</a></li>
+                                    <li><a href="index.html">Page3</a></li>
+                                    <li><a href="index.html">Page4</a></li>
+    
+                                </ul>
+                                <a href="#" class="d-flex justify-content-between">Page4<span>
+                                    </span></a>
+                            </li>
+                            <li><a href="index.html">Page4</a></li>
+    
+                        </ul>
+                    </li>
+                    <li onclick="subMenuExpan('secondSub')"><a href="#">Other Pages<i class="fa fa-angle-down"
+                                id="resPonsivMenuLinkIcon"></i></a>
+                        <!-- second-subMenu -->
+                        <ul class="subMenu secondSub">
+                            <li><a href="search.html">Search</a></li>
+                            <li><a href="grid-listing-filterscol.html">Search2</a></li>
+                            <li><a href="submit-restaurant.html">Submit Restaurant</a></li>
+                            <li><a href="submit-rider.html">Submit Rider</a></li>
+                            <li><a href="leave-review.html">Leave-review</a></li>
+    
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- main-menu-end -->
+        </div>
+    </header>
+    <!-- popular Section area -->
+    <section id="popular-restaurant-area py-5">
+        <div class="restSearch-area py-3">
+           <div class="container">
+               <div class="row align-items-center">
+                   <div class="col-md-6 col-xl-6 col-lg-6 col-12 col-sm-12">
+                      <div class="breadCrumb">
+                          <ul class="d-flex ">
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="index.html">Category</a></li>
+                              <li>Page Active</li>
+                          </ul>
+                      </div>
+                      <h2 class="list-heading">145 restaurants in Convent Street 2983</h2>
+                   </div>
+                      <div class="col-md-6 col-xl-6 col-lg-6 col-12 col-sm-12">
+                       <div class="search-box">
+                           <form action="">
+                              <ul>
+                                  <li class="d-flex"><input type="text" placeholder="Search Again" name="search" id="search"> <input type="Submit" value="Search" id="submit"> </li>
+                              </ul>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <div class="container">
+            <div class="item-container py-4">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-12 col-sm-12 ">
+                    <!-- filter-siderbar-start -->
+                    <div class="filter-wrapper" id="filter-werapper">
+                      <div class="filter-area" id="filter-area">
+                         <form action="">
+                            <ul class="sortBy">
+                                <li>
+                                    <select name="cars" id="cars" form="carform">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="opel">Opel</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        
+                            <ul class="FilterOption">
+                                <!-- single-option-start -->
+                                <li onclick="filoption_collapse('filter_cat','catFil')">Categories<i class="fa fa-angle-down fil-icon" id="catFil"></i>
+                                </li>
+                                <ul class="checkOption showfilterOption" id="filter_cat">
+                                    <li>
+                                      <label class="container_check">Pizza -Italian
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                     </label>
+                                    <span>12</span>
+                                   </li>
+                                    <li><label class="container_check">Japanise-Sushi
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label><span>12</span></li>
+                                    <li><label class="container_check">Burgers
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label><span>12</span></li>
+                                    <li><label class="container_check">Vegetarian
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label><span>12</span></li>
+                                    <li><label class="container_check">Bakery
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label><span>12</span></li>
+                                    <li><label class="container_check">Mexican
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label><span>12</span></li>
+                              
+                                </ul>
+                                 <!-- single-option-end    -->
+                                <!-- single-option-start -->
+                                <li onclick="filoption_collapse('filRating','RateFil')">Ratings<i class="fa fa-angle-down" id="RateFil"></i>
+                                </li>
+                                <ul class="checkOption" id="filRating">
+                                    <li>
+                                        <label class="container_check">Superb
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">Accilent
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">Very Good
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">Pleasant
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">Good
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">Average
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                </ul>
+                                 <!-- single-option-End -->
+                                <li >Distance
+                                </li>
+                                <ul>
+                                    <li>
+                                        <div class="distance-option">
+                                            <h4>Radius around selected destination <span id="disValue">10</span> km</h4>
+                                            <input type="range" min="5" max="40" value="30" class="slider_distance" id="myRange">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <li onclick="filoption_collapse('filPrice','priceFil')">Price<i class="fa fa-angle-down" id="priceFil"></i>
+                                </li>
+                                <ul class="checkOption" id="filPrice">
+                                    <li>
+                                        <label class="container_check">$0-$50
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">$0-$50
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">$0-$50
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">$0-$50
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">$0-$50
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                    <li>
+                                        <label class="container_check">$50-$100
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <span>12</span>
+                                    </li>
+                                </ul>
+                                 <li><input type="submit" value=Filter></li>
+                                
+                            </ul>
+                         </form>
+                      </div>
+                    </div>
+                      <!-- filter-sidebar-end -->
+                    </div>
+                    <!-- Restaurat-list-area-start -->
+                    <div class="col-md-9 col-lg-9 col-12 col-sm-12">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil1.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil2.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil3.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil4.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil5.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil6.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil7.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil8.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil9.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil10.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil12.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                                    <!-- single-item-area -->
+                                    <div class="single-item">
+                                        <div class="image-wrapperWithContent">
+                                            <a href="#">
+                                                <img src="img/filter/resized/fil13.jpg" alt="sudhi.jpg">
+                                            </a>
+                                            <ul class="d-flex justify-content-between">
+                                                <li><span id="title">pizza</span></li>
+                                                <li><span>-30%</span></li>
+                                            </ul>
+                                            <div class="img-content-bottom">
+                                                <h4>Da Alfredo</h4>
+                                                <span>27 old Gluscoster St</span>
+                                            </div>
+                                        </div>
+                                        <div class="single-item-content-bottom py-2">
+                                            <ul class="d-flex justify-content-between">
+                                                <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                                <li class="d-flex">
+                                                    <div class="review">
+                                                        <span id="comment">Superb</span>
+                                                        <em>350 Reviews</em>
+                                                    </div>
+                                                    <span id="rating">8.9</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination-area">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                                <li><a href="#" class="paging-active">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Restaurat-list-area-end -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-top-area -->
+    <section id="footerLinksArea" class="py-4">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-md-3 col-lg-3 col-6 col-sm-6">
+                    <!-- single-widget-area -->
+                    <div class="footer-link-wrapper text-left">
+                        <h4 onclick="myFunCollapse('quicklink');">Quick Links</h4>
+                        <ul class="quicklink">
+                            <li><a href="about.html">About us<i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="submit-restaurant.html">Add your restaurant <i
+                                        class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="index.html">Help <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="coomingsoon.html">My account <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="coomingsoon.html">Blog <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="index.html">Contacts <i class="fa fa-long-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 col-sm-6">
+                    <div class="footer-link-wrapper text-left">
+                        <h4 onclick="myFunCollapse('category');" id="category">CATEGORIES</h4>
+                        <ul class="category">
+                            <li><a href="detail-restaurant.html">Price<i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="index.html">Top Categories <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="grid-listing-filterscol.html">Best Rated <i class="fa fa-long-arrow-right"></i></a>
+                            </li>
+                            <li><a href="grid-listing-filterscol.html">Best Price <i class="fa fa-long-arrow-right"></i></a>
+                            </li>
+                            <li><a href="coomingsoon.html">Latest Submissions <i class="fa fa-long-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 col-sm-6">
+                    <div class="footer-link-wrapper text-left">
+                        <h4 onclick="myFunCollapse('contacts');" id="contacts">Contacts</h4>
+                        <ul class="contacts">
+                            <li class="d-flex mb-2">
+                                <span class="fa fa-home"></span>
+                                <div class="ml-1">
+                                    <ul>
+                                        <li>97845 Baker st. 567</li>
+                                        <li>97845 Baker st. 567</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mb-2"><span class="fa fa-volume-control-phone"></span>+94 423-23-221</li>
+                            <li class="mb-2"><span class="fa fa-envelope"></span>Info@domain.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 col-sm-6">
+                    <div class="footer-link-wrapper text-left">
+                        <h4 onclick="myFunCollapse('subscribe');">Keep In Touch</h4>
+                        <ul class="subscribe">
+                            <li>
+                                <div class="subscribe-area d-flex">
+                                    <input type="email" placeholder="Email">
+                                    <input type="submit" value="Go">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="social-link mt-5">
+                            <h4 onclick="myFunCollapse('socialLink');">Follow Us</h4>
+                            <ul class="pt-2 socialLink">
+                                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <footer id="footer-botom" class="pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                    <ul class="d-flex footerUl">
+                        <li><a href="#">English<i class="fa fa-globe"></i></a></li>
+                        <li><a href="#">English<i class="fa fa-angle-down"></i></a></li>
+                        <li><img src="img/footer/cards_all.svg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-6 col-12 col-sm-12 d-flex  justify-content-end">
+                    <ul class="d-flex footerUl-right ">
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#"><i class="fa fa-copyright"></i>taijul</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="/assets/plugin/js/owl.carousel.min.js"></script>
+    <script src="/assets/plugin/js/jquery.sticky.js"></script>
+    <!-- <script src="/assets/plugin/js/datepicker.min.js"></script> -->
+    <script src="script.js"></script>
+    <script src="home.js"></script>
+
+
+</body>
+
+</html>

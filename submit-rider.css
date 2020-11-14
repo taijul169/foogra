@@ -1,0 +1,567 @@
+.single-popular-cat-icon.submit-rider {
+  width: 100%;
+  padding: 30px;
+}
+.single-popular-cat-icon.submit-rider h4 {
+  font-size: 18px;
+  color: #f05a24;
+  margin-bottom: 10px;
+}
+.aplybtn {
+  background: #f0f0f0;
+  padding: 10px 20px;
+  margin-top: 14px;
+  display: inline-block;
+  color: #000000;
+  border-radius: 3px;
+}
+#frequent_question {
+  background: #f4f4f4;
+}
+.frequent-title {
+  margin: 20px 0px;
+  text-align: center;
+}
+.frequent-title h2 {
+  font-size: 28px;
+}
+.frequent-title p {
+  font-size: 18px;
+  color: #5b5b5b;
+}
+.question-wrapper ul {
+  margin: 50px 0px;
+}
+.question-wrapper ul li {
+  width: 100%;
+  display: flex;
+  background: #fff;
+  padding: 20px 15px;
+  margin: 10px 0px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.question-wrapper ul li i {
+  width: 15px;
+  height: 2px;
+  background: #d5d5d5;
+  position: relative;
+  margin: auto 0;
+}
+.question-wrapper ul li span {
+  display: inline-block;
+  color: #868686;
+  text-transform: uppercase;
+}
+.question-wrapper ul li i::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #d5d5d5;
+  transform: rotate(90deg);
+}
+.beforeToggle {
+  display: none;
+}
+.question-text {
+  background: #ffffff;
+  padding: 20px 15px;
+  color: #5b5b5b;
+  margin-top: -9px;
+  width: 100%;
+}
+.random-question-wrapper {
+  background: #f0f0f0;
+  border-radius: 5px;
+  width: 100%;
+}
+.single-question span {
+  font-size: 20px;
+  color: #868686;
+  font-weight: 500;
+}
+.random-question-wrapper ul li input[type="submit"] {
+  float: right;
+  margin: 10px 0px;
+  padding: 8px 20px;
+  border: 0;
+  background: #f05a24;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.random-question-wrapper input[type="submit"]:hover {
+  background: #100633;
+}
+.single-question {
+  height: 100%;
+  width: 100%;
+  padding: 70px 35px;
+}
+.section-title.text-center.py-4 p {
+  font-size: 18px;
+}
+.single-question label {
+  font-size: 16px;
+  display: block;
+}
+.single-question select {
+  width: 100%;
+  padding: 5px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+  font-size: 15px;
+}
+.select2-container .select2-selection--single {
+  height: 45px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #7f7f7f;
+  line-height: 45px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  top: 8px;
+  right: 8px;
+  width: 20px;
+}
+.select2-container--default .select2-selection--single {
+  border: 1px solid #d8d8d8;
+}
+.select2-container--default
+  .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: #f05a24;
+  color: white;
+}
+
+/* The container */
+.single-question .vehicle_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.single-question .vehicle_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.single-question .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.vehicle_container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.vehicle_container input:checked ~ .checkmark {
+  background-color: #f05a24;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.vehicle_container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.vehicle_container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.vehicle_container .checkmark::after {
+  top: 8px;
+  left: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.single-question ul {
+  display: flex;
+  justify-content: right;
+}
+.complete_percent {
+  width: 20%;
+  height: 2px;
+  background: #f05a24;
+  margin: 10px 0px;
+}
+
+.single-question.q-three .checkmark {
+  border-radius: 0;
+}
+.single-question.q-four .termsCondition .checkmark {
+  border-radius: 0;
+}
+.termsCondition label {
+  font-size: 14px;
+}
+.male_female_age li:first-child input {
+  width: 30%;
+}
+.male_female_age li:last-child {
+  margin: 0px 20px;
+}
+.single-question h4 {
+  font-size: 18px;
+  display: block;
+}
+.q-two,
+.q-three,
+.q-four {
+  display: none;
+}
+.random-question-wrapper ul li a {
+  margin: 10px 5px;
+  padding: 8px 20px;
+  border: 0;
+  background: #b4b4b4;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+.random-question-wrapper ul {
+  margin-right: 35px;
+}
+
+/* confirm-box */
+.confirm-box {
+	background: #fff;
+	width: 100%;
+	margin-top: 100px;
+	border-radius: 10px;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+}
+.confirm-header {
+  padding: 20px;
+  background: #f05a24;
+  color: #fff;
+}
+.confirm-header h2 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.check-icon-wrapper {
+  padding: 50px 20px;
+  position: relative;
+}
+.check-icon-wrapper span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #f05a24;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+}
+.inner-check1 {
+  width: 35px;
+  height: 2px;
+  position: absolute;
+  background: #f05a24;
+  left: 48%;
+  top: 32%;
+  transform: rotate(-50deg);
+  transition: all 0.8s;
+  display: none;
+}
+.inner-check2 {
+  width: 17px;
+  height: 2px;
+  position: absolute;
+  background: #f05a24;
+  left: 46%;
+  top: 36%;
+  transform: rotate(31deg);
+  transition: all 0.1s;
+  display: none;
+}
+/* booking-area */
+.booking-midle {
+  margin: 25px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 20px;
+}
+
+.booking-form i.icon_pencil::before {
+  content: "\f040";
+  display: block;
+  position: absolute;
+  right: 3%;
+  top: 15%;
+  font-family: FontAwesome;
+  color: #cbcbcb;
+  font-size: 16px;
+  font-style: normal;
+}
+.booking-form .icon_email::after {
+  content: "\f003";
+  display: block;
+  position: absolute;
+  right: 3%;
+  top: 15%;
+  font-family: FontAwesome;
+  color: #cbcbcb;
+  font-size: 16px;
+  font-style: normal;
+}
+.booking-form .icon_mobile::after {
+  content: "\f095";
+  display: block;
+  position: absolute;
+  right: 3%;
+  top: 15%;
+  font-family: FontAwesome;
+  color: #cbcbcb;
+  font-size: 16px;
+  font-style: normal;
+}
+.form-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+.booking-form {
+  padding: 20px 25px;
+}
+.form-control {
+  font-size: 14px;
+}
+.booking-form input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  border: 0;
+  background: #f05a24;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+.booking-form input[type="submit"]:hover {
+  background: #ff7543;
+}
+.booking-form a {
+  display: block;
+  border: 2px solid #494949;
+  padding: 6px 0px;
+  color: #494949;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+#temporary_link {
+	background: #f05a24;
+	color: #FFF;
+	border: 0;
+}
+.booking-form a:hover {
+  color: #f05a24;
+  border: 2px solid #f05a24;
+}
+.booking-form label {
+  font-size: 16px;
+  text-align: left;
+  display: block;
+}
+.booking-midle h4 {
+  font-size: 18px;
+  display: block;
+  text-align: left;
+}
+.booking-midle ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+}
+.booking-midle ul li b {
+	font-weight: 500;
+	color: #343434;
+}
+/* leave-review-area */
+.custom-file-upload {
+  display: block;
+  border: 1px solid #f0f0f0;
+  padding: 5px 3px;
+  margin-top: -35px;
+  border-radius: 3px;
+}
+
+.custom-file-upload i {
+  background: #f05a24;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.custom-file-upload i span {
+  padding-left: 10px;
+  margin-left: 0px;
+  color: #ffffff;
+}
+.custom-file-upload span {
+  margin-left: 5px;
+  color: #aaaaaa;
+}
+.review-form .form-group small {
+  margin-top: -2px;
+  display: block;
+  color: #898989;
+}
+.review-form .form-group input[type="submit"] {
+  background: #f05a24;
+  padding: 7px 15px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 0;
+  font-weight: 500;
+}
+.confirm-box.leave-review.p-4 h2 {
+  font-size: 26px;
+  display: block;
+  padding: 20px 0;
+}
+.review-form form label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.review-form form .form-group label {
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+.review-form form .form-group input[type="text"].form-control {
+  height: 50px;
+}
+.review-form .distance-option h4 span {
+	font-weight: 700;
+}
+.booking-delivery {
+	margin: 40px 0px;
+}
+.confirm-box.leave-review.booking-delivery h4 {
+	background: #F05A24;
+	padding: 16px 20px;
+	color: #FFF;
+	font-size: 22px;
+}
+.confirm-box.leave-review.booking-delivery .review-form{
+	padding: 16px 20px;
+}
+.confirm-box.leave-review.booking-delivery .review-form li {
+	list-style: none;
+	width: 100%;
+	background: #F0F0F0;
+	display: block;
+  align-items: center;
+  border-radius: 3px;
+}
+.confirm-box.leave-review.booking-delivery .review-form li .checkmark {
+	top: 8px;
+	left: 8px;
+	height: 22px;
+	width: 22px;
+	border: 3px solid #FFF;
+	border-radius: 50%;
+}
+.confirm-box.leave-review.booking-delivery .review-form li .vehicle_container .checkmark::after {
+	top: 4px;
+	left: 4px;
+}
+.confirm-box.leave-review.booking-delivery .review-form li .vehicle_container input[type="radio"] {
+	display: none;
+}
+.booking-delivery .vehicle_container p {
+	padding-left: 35px;
+	margin: 0;
+	margin-top: 6px;
+	font-size: 16px;
+}
+.booking-delivery .d-flex.justify-content-between i {
+	margin-right: 12px;
+	font-size: 20px;
+	color: #8B8B8B;
+}
+.booking-delivery .form-group label {
+	font-size: 15px;
+}
+/* order-summary */
+.order-summary-wrapper .confirm-box {
+  background: #FFFFFF;
+  border: dotted 2px#A8A8A8;
+	margin-top: 40px;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0);
+	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0);
+}
+.order-summary-wrapper .confirm-header{
+  background: #F8F8F8;
+  border-bottom: 2px dotted #A8A8A8;
+  color: #494949;
+}
+.itemNumberSummary li {
+	display: flex;
+	justify-content: space-between;
+	border: 0px solid transparent;
+	margin-bottom: 5px;
+}
+.itemNumberSummary li a {
+	display: inline-block;
+	border: 0px; 
+	padding: 6px 0px;
+	color: #494949;
+	transition: all 0.3s ease-in-out;
+}
+.itemNumberSummary li a:hover{
+  border: 0;
+  border-radius:0;
+}
+.itemNumberSummary li a i {
+	font-weight: normal;
+	border-radius: 50%;
+	border: 1px solid #000;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 10px;
+	margin-right: 10px;
+}
+.itemNumberSummary h5 {
+	color: #F05A24;
+	font-size: 18px;
+}
+.mfp-content {
+	margin-top: 65px;
+}

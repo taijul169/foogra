@@ -1,0 +1,712 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="x-ua-compatible" content="ie=edge">
+ <title>zimax.com</title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+ <!-- owl-carousel -->
+ <link rel="stylesheet" href="/assets/plugin/css/owl.carousel.min.css">
+ <link rel="stylesheet" href="/assets/plugin/css/owl.theme.default.min.css">
+<!-- date-picker -->
+<link rel="stylesheet" href="/assets/plugin/css/datepicker.min.css">
+<!-- google-font-poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+ <link rel="stylesheet" href="/sass/custom.css">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- scroll-top-indicator -->
+    <a href="#" class="scroll-top-indicator"><i class="fa fa-angle-up"></i></a>
+  <div class="hero-imager-wrapper">
+    <!-- header-area-start -->
+    <header class="header-all">
+        <div class="container">
+            <div class="menu-icon">
+              <a href="#" id="ResmenuIcon"><i class="fa fa-bars"></i></a>
+            </div>
+            <div class="logo-area">
+                <h4>Foogra</h4>
+            </div>
+            <div class="icon-menu">
+                <ul class="d-flex">
+                    <li><a href="#"><i class="fa fa-sign-in"></i></a></li>
+                    <li><a href="#"><i class="fa fa-heart-o"></i></a></li>
+               </ul>
+           </div>
+           <!-- main-menu-start -->
+        <nav class="nav-header  py-2 " id="sidenav">
+           
+            <div class="logo-area" id="nav-logo">
+                <h4>Foogra</h4>
+                <a href="#" id="nav-close"><i class="fa fa-close"></i></a>
+            </div>
+            
+            <ul class="resMenu home-page">
+                <li><a href="index.html">Home</a></li>
+                <li onclick="subMenuExpan('subMenu')"><a href="#">Listing<i class="fa fa-angle-down" id="resPonsivMenuLinkIcon"></i></a>
+                    <!-- first Submenu -->
+                    <ul class="subMenu">
+                        <li><a href="search.html">Search</a></li>
+                        <li><a href="grid-listing-filterscol.html">Search2</a></li>
+                        <li><a href="submit-restaurant.html">Submit Restaurant</a></li>
+                        <li><a href="submit-rider.html">Submit Rider</a></li>
+                        <li><a href="leave-review.html">Leave-review</a></li>
+                        <li >
+                            <!-- fist-submenu of Sub-->
+                            <ul class="subMenu subOfsubMenu" id="SecondMenu">
+                                <li><a href="coomingsoon.html">Page1</a></li>
+                                <li><a href="coomingsoon.html">Page2</a></li>
+                                <li><a href="coomingsoon.html">Page3</a></li>
+                                <li><a href="coomingsoon.html">Page4</a></li>
+                                
+                            </ul>
+                            <a href="#" class="d-flex justify-content-between">Page4<span>
+                                    </span></a>
+                        </li>
+                        <li><a href="coomingsoon.html">Page4</a></li>
+                       
+                    </ul>
+                </li>
+                <li  onclick="subMenuExpan('secondSub')"><a href="#">Other Pages<i class="fa fa-angle-down" id="resPonsivMenuLinkIcon"></i></a>
+                   <!-- second-subMenu -->
+                    <ul class="subMenu secondSub">
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="grid-listing-filterscol.html">Search2</a></li>
+                    <li><a href="submit-restaurant.html">Submit Restaurant</a></li>
+                    <li><a href="submit-rider.html">Submit Rider</a></li>
+                    <li><a href="leave-review.html">Leave-review</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+             </ul>
+         </nav>
+            <!-- main-menu-end -->
+       </div>
+    </header>
+   
+     <div class="hero-owl-wr">
+        <!-- .hero-image-slider -->
+        <div class="all-slider-wrapper owl-carousel heroSlide owl-theme">
+            <!-- .single-item-slide -->
+            <div class="hero-image-slider" style="background-image: url(img/slide/slide4.jpg)">
+                <div class="slide-cover d-flex align-items-center">
+                    <div class="container">
+                        <div class="row justify-content-end align-items-center ">
+                            <div class="slider-inner-content text-right">
+                                <h2 class="animate__animated animate__fadeInDown">Discover and Preserve1</h2>
+                                <p class="animate__animated animate__fadeInDown" >Best Restaurant at The best Price</p>
+                                    <div class="content-cta animate__animated animate__fadeInDown">
+                                        <a href="#">Read More</a>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- .single-item-slide -->
+            <div class="hero-image-slider" style="background-image: url(img/slide/slide3.jpg)">
+                <div class="slide-cover d-flex align-items-center">
+                    <div class="container">
+                        <div class="row justify-content-start align-items-center">
+                            <div class="slider-inner-content text-left">
+                                <h2>Discover and Preserve2</h2>
+                                <p>Best Restaurant at The best Price</p>
+                                <div class="content-cta">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .single-item-slide -->
+            <div class="hero-image-slider" style="background-image: url(img/slide/slide1.jpg)">
+                <div class="slide-cover d-flex align-items-center">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="slider-inner-content text-center">
+                                <h2 >Discover and Preserve3</h2>
+                                <p>Best Restaurant at The best Price</p>
+                                <div class="content-cta">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+        
+  </div>       
+    <!-- popular-category-section -->
+    <section id="cat-area" >
+        <div class="popular-section-area py-5">
+            <div class="container">
+                <!-- section-title-area -->
+                <div class="section-title text-center py-4">
+                    <h2>Popular Categories</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolore.</p>
+                </div>
+            </div>
+            <!-- section-content-area -->
+            <div class="section-content">
+                <div class="container">
+                    <div class="row no-gutters">
+                        <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                            <div class="image-wrapper fixed-heigth">
+                                <a href="detail-restaurant.html"> <img src="img/item/img_cat_home_1.jpg" alt="slide1.jpg"></a>
+                                <div class="image-content">
+                                    <h2>Pizza Italian</h2>
+                                    <span>99 Restaurant</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                            <div class="row no-gutters">
+                                <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                                    <div class="image-wrapper h-half">
+                                        <a href="detail-restaurant.html"> <img src="img/item/photo-1569718212165-3a8278d5f624.jpg" alt="slide1.jpg"></a>
+                                        <div class="image-content" id="image-content">
+                                            <h2>Bakery Cake</h2>
+                                            <span>150 Restaurant</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                                    <div class="image-wrapper h-half">
+                                        <a href="detail-restaurant.html"> <img src="img/item/sushi.jpg" alt="slide1.jpg"></a>
+                                        <div class="image-content">
+                                            <h2>Sushi</h2>
+                                            <span>60 Restaurant</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="row"> -->
+                                <div class="col-md-12 col-lg-12 col-12 col-sm-12 mt-2">
+                                    <div class="image-wrapper h-half">
+                                        <a href="#"> <img src="img/item/burger.jpg" alt="slide1.jpg"></a>
+                                        <div class="image-content">
+                                            <h2>Burger</h2>
+                                            <span>200 Restaurant</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+    </section>
+    <!-- popular restaurant area -->
+    <section id="popular-restaurant-area py-5">
+      <div class="container">
+           <!-- section-heading-area -->
+            <div class="popular-restaurant-list-header d-flex  justify-content-between py-5 align-items-end">
+                <div class="left-content-popular">
+                    <span></span>
+                    <h2>Popular Restaurant</h2>
+                    <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+                </div>
+                <div class="popular-content-right">
+                    <ul class="d-flex align-item-end ">
+                        <li><a href="grid-listing-filterscol.html">View All</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- section-heading-area end-->
+            <div class="item-container">
+               <div class="row">
+                  <div class="slider-wrapper owl-carousel sileactive">
+                      <!-- single-item-area -->
+                        <div class="single-item">
+                            <div class="image-wrapperWithContent">
+                                <a href="detail-restaurant.html">
+                                    <img src="img/item/sushi.jpg" alt="sudhi.jpg">
+                                </a>
+                                <ul class="d-flex justify-content-between">
+                                    <li><span id="title">pizza</span></li>
+                                    <li><span>-30%</span></li>
+                                </ul>
+                                <div class="img-content-bottom">
+                                    <h4>Da Alfredo</h4>
+                                    <span>27 old Gluscoster St</span>
+                                </div>
+                            </div>
+                            <div class="single-item-content-bottom py-2">
+                                <ul class="d-flex justify-content-between">
+                                    <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                    <li class="d-flex">
+                                        <div class="review">
+                                            <span id="comment">Superb</span>
+                                            <em>350 Reviews</em>
+                                        </div>
+                                        <span id="rating">8.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                           <!-- single-item-area -->
+                        <div class="single-item">
+                            <div class="image-wrapperWithContent">
+                                <a href="detail-restaurant.html">
+                                    <img src="img/item/food1.jpg" alt="sudhi.jpg">
+                                </a>
+                                <ul class="d-flex justify-content-between">
+                                    <li><span id="title">pizza</span></li>
+                                    <li><span>-30%</span></li>
+                                </ul>
+                                <div class="img-content-bottom">
+                                    <h4>Da Alfredo</h4>
+                                    <span>27 old Gluscoster St</span>
+                                </div>
+                            </div>
+                            <div class="single-item-content-bottom py-2">
+                                <ul class="d-flex justify-content-between">
+                                    <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                    <li class="d-flex">
+                                        <div class="review">
+                                            <span id="comment">Superb</span>
+                                            <em>350 Reviews</em>
+                                        </div>
+                                        <span id="rating">8.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- single-item-area -->
+                        <div class="single-item">
+                            <div class="image-wrapperWithContent">
+                                <a href="detail-restaurant.html">
+                                    <img src="img/item/food2.jpg" alt="sudhi.jpg">
+                                </a>
+                                <ul class="d-flex justify-content-between">
+                                    <li><span id="title">pizza</span></li>
+                                    <li><span>-30%</span></li>
+                                </ul>
+                                <div class="img-content-bottom">
+                                    <h4>Da Alfredo</h4>
+                                    <span>27 old Gluscoster St</span>
+                                </div>
+                            </div>
+                            <div class="single-item-content-bottom py-2">
+                                <ul class="d-flex justify-content-between">
+                                    <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                    <li class="d-flex">
+                                        <div class="review">
+                                            <span id="comment">Superb</span>
+                                            <em>350 Reviews</em>
+                                        </div>
+                                        <span id="rating">8.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- single-item-area -->
+                        <div class="single-item">
+                            <div class="image-wrapperWithContent">
+                                <a href="detail-restaurant.html">
+                                    <img src="img/item/food3.jpg" alt="sudhi.jpg">
+                                </a>
+                                <ul class="d-flex justify-content-between">
+                                    <li><span id="title">pizza</span></li>
+                                    <li><span>-30%</span></li>
+                                </ul>
+                                <div class="img-content-bottom">
+                                    <h4>Da Alfredo</h4>
+                                    <span>27 old Gluscoster St</span>
+                                </div>
+                            </div>
+                            <div class="single-item-content-bottom py-2">
+                                <ul class="d-flex justify-content-between">
+                                    <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                    <li class="d-flex">
+                                        <div class="review">
+                                            <span id="comment">Superb</span>
+                                            <em>350 Reviews</em>
+                                        </div>
+                                        <span id="rating">8.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- single-item-area -->
+                        <div class="single-item">
+                            <div class="image-wrapperWithContent">
+                                <a href="detail-restaurant.html">
+                                    <img src="img/item/food4.jpg" alt="sudhi.jpg">
+                                </a>
+                                <ul class="d-flex justify-content-between">
+                                    <li><span id="title">pizza</span></li>
+                                    <li><span>-30%</span></li>
+                                </ul>
+                                <div class="img-content-bottom">
+                                    <h4>Da Alfredo</h4>
+                                    <span>27 old Gluscoster St</span>
+                                </div>
+                            </div>
+                            <div class="single-item-content-bottom py-2">
+                                <ul class="d-flex justify-content-between">
+                                    <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                    <li class="d-flex">
+                                        <div class="review">
+                                            <span id="comment">Superb</span>
+                                            <em>350 Reviews</em>
+                                        </div>
+                                        <span id="rating">8.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- single-item-area -->
+                        <div class="single-item">
+                            <div class="image-wrapperWithContent">
+                                <a href="detail-restaurant.html">
+                                    <img src="img/item/food5.jpg" alt="sudhi.jpg">
+                                </a>
+                                <ul class="d-flex justify-content-between">
+                                    <li><span id="title">pizza</span></li>
+                                    <li><span>-30%</span></li>
+                                </ul>
+                                <div class="img-content-bottom">
+                                    <h4>Da Alfredo</h4>
+                                    <span>27 old Gluscoster St</span>
+                                </div>
+                            </div>
+                            <div class="single-item-content-bottom py-2">
+                                <ul class="d-flex justify-content-between">
+                                    <li class="d-flex align-items-end"><span id="status">Now Open</span></li>
+                                    <li class="d-flex">
+                                        <div class="review">
+                                            <span id="comment">Superb</span>
+                                            <em>350 Reviews</em>
+                                        </div>
+                                        <span id="rating">8.9</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                  </div>
+               </div>
+            </div>
+      </div>
+    </section>
+    <!-- Best-deals-area -->
+    <section id="Our_best_deals" class="pb-5">
+        <div class="container">
+            <!-- section-heading-area -->
+            <div class="popular-restaurant-list-header d-flex  justify-content-between py-5 align-items-end pb-5">
+                <div class="left-content-popular">
+                    <span></span>
+                    <h2>Our Best Deals</h2>
+                    <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+                </div>
+                <div class="popular-content-right">
+                    <ul class="d-flex align-item-end ">
+                        <li><a href="grid-listing-filterscol.html">View All</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- section-heading-area end-->
+            <main>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                        <!-- single-best-item -->
+                        <div class="single-best-item">
+                          <a href="detail-restaurant.html">
+                            <ul class="ul_best-item" >
+                                <li>
+                                    <div class="best-deal-img">
+                                        <img src="img/item/restaurant3.jpg" alt="food3.jpg">
+                                    </div>
+                                </li>
+                                <li class="best-deal-content pt-1">
+                                    <em>Italian</em>
+                                    <h4>La Mannalisa</h4>
+                                    <span>8 Patroit Square 9F/A</span>
+                                    <div class="best-item-cont-btm d-flex justify-content-between">
+                                        <span id="discount">-30%</span>
+                                        <span>Avarage Price $35</span>
+                                    </div>
+                                </li>
+                                <li><span class="text-right " id="score">9.5</span></li>
+                            </ul>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                        <!-- single-best-item -->
+                        <div class="single-best-item">
+                            <a href="detail-restaurant.html">
+                                <ul class="ul_best-item">
+                                    <li>
+                                        <div class="best-deal-img">
+                                            <img src="img/item/restaurant2.jpg" alt="food3.jpg">
+                                        </div>
+                                    </li>
+                                    <li class="best-deal-content pt-1">
+                                        <em>Middle Eastern, Arabic</em>
+                                        <h4>Olea</h4>
+                                        <span>8 Patroit Square 9F/A</span>
+                                        <div class="best-item-cont-btm d-flex justify-content-between">
+                                            <span id="discount">-20%</span>
+                                            <span>Avarage Price $18</span>
+                                        </div>
+                                    </li>
+                                    <li><span class="text-right " id="score">9.5</span></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                        <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                            <!-- single-best-item -->
+                            <div class="single-best-item">
+                                <a href="detail-restaurant.html">
+                                    <ul class="ul_best-item">
+                                        <li>
+                                            <div class="best-deal-img">
+                                                <img src="img/item/restaurant1.jpg" alt="food3.jpg">
+                                            </div>
+                                        </li>
+                                        <li class="best-deal-content pt-1">
+                                            <em>International</em>
+                                            <h4>Latest Recipe</h4>
+                                            <span>8 Patroit Square 9F/A</span>
+                                            <div class="best-item-cont-btm d-flex justify-content-between">
+                                                <span id="discount">-32%</span>
+                                                <span>Avarage Price $35</span>
+                                            </div>
+                                        </li>
+                                        <li><span class="text-right " id="score">9.5</span></li>
+                                    </ul>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                        <!-- single-best-item -->
+                        <div class="single-best-item">
+                            <a href="detail-restaurant.html">
+                                <ul class="ul_best-item">
+                                    <li>
+                                        <div class="best-deal-img">
+                                            <img src="img/item/restaurant.jpg" alt="food3.jpg">
+                                        </div>
+                                    </li>
+                                    <li class="best-deal-content pt-1">
+                                        <em>Italian, European</em>
+                                        <h4>Prego</h4>
+                                        <span>8 Patroit Square 9F/A</span>
+                                        <div class="best-item-cont-btm d-flex justify-content-between">
+                                            <span id="discount">-50%</span>
+                                            <span>Avarage Price $15</span>
+                                        </div>
+                                    </li>
+                                    <li><span class="text-right " id="score">9.5</span></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                        <!-- single-best-item -->
+                        <div class="single-best-item">
+                            <a href="detail-restaurant.html">
+                                <ul class="ul_best-item">
+                                    <li>
+                                        <div class="best-deal-img">
+                                            <img src="img/item/restaurant5.jpg" alt="food3.jpg">
+                                        </div>
+                                    </li>
+                                    <li class="best-deal-content pt-1">
+                                        <em>Asian, Sushi</em>
+                                        <h4>Bunka</h4>
+                                        <span>8 Patroit Square 9F/A</span>
+                                        <div class="best-item-cont-btm d-flex justify-content-between">
+                                            <span id="discount">-40%</span>
+                                            <span>Avarage Price $28</span>
+                                        </div>
+                                    </li>
+                                    <li><span class="text-right " id="score">9.5</span></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                        <!-- single-best-item -->
+                        <div class="single-best-item">
+                            <a href="detail-restaurant.html">
+                                <ul class="ul_best-item">
+                                    <li>
+                                        <div class="best-deal-img">
+                                            <img src="img/item/restaurant6.jpg" alt="food3.jpg">
+                                        </div>
+                                    </li>
+                                    <li class="best-deal-content pt-1">
+                                        <em>Japanese, American</em>
+                                        <h4>Seasonal Tastes</h4>
+                                        <span>8 Patroit Square 9F/A</span>
+                                        <div class="best-item-cont-btm d-flex justify-content-between">
+                                            <span id="discount">-40%</span>
+                                            <span>Avarage Price $25</span>
+                                        </div>
+                                    </li>
+                                    <li><span class="text-right " id="score">9.5</span></li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </main>
+        </div>
+    </section>
+    <!-- Banner-area -->
+    <section id="banner-area " class="pb-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 col-lg-12">
+                    <div class="banner-wrapper  d-flex justify-content-center align-items-center">
+                       
+                        <div class="banner-content text-center pt-2">
+                            <h2>More Than 3000 Restaurant listed</h2>
+                             <p>Book a table easly at the best price.</p>
+                             <a href="grid-listing-filterscol.html" class="my-3">View All Restaurants</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- restaurant-owner-area -->
+    <section id="call_section_lazy">
+        <div class="container ">
+          <div class="row">
+                <div class="col-md-5 col-lg-5 col-12 col-sm-12 offset-md-7 offset-lg-7">
+                    <div class="lazy-message-area text-left">
+                        <h2>Are you a Restaurant Owner?</h2>
+                        <p class="text-muted">Join Us to increase your online visibility. You'll have access to even more customers who are looking to
+                            enjoy your
+                            tasty dishes at home.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+          </div>
+        </div>
+    </section>
+    <!-- Footer-top-area -->
+    <section id="footerLinksArea" class="py-4">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-3 col-lg-3 col-6 col-sm-6">
+                    <!-- single-widget-area -->
+                    <div class="footer-link-wrapper text-left">
+                        <h4 onclick="myFunCollapse('quicklink');">Quick Links</h4>
+                        <ul class="quicklink">
+                            <li><a href="about.html">About us<i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="submit-restaurant.html">Add your restaurant <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="index.html">Help <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="coomingsoon.html">My account <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="coomingsoon.html">Blog <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="index.html">Contacts <i class="fa fa-long-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 col-sm-6">
+                    <div class="footer-link-wrapper text-left">
+                        <h4 onclick="myFunCollapse('category');" id="category">CATEGORIES</h4>
+                        <ul class="category">
+                            <li><a href="detail-restaurant.html">Price<i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="index.html">Top Categories <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="grid-listing-filterscol.html">Best Rated <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="grid-listing-filterscol.html">Best Price <i class="fa fa-long-arrow-right"></i></a></li>
+                            <li><a href="coomingsoon.html">Latest Submissions <i class="fa fa-long-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 col-sm-6">
+                    <div class="footer-link-wrapper text-left">
+                        <h4 onclick="myFunCollapse('contacts');" id="contacts">Contacts</h4>
+                        <ul class="contacts">
+                           <li class="d-flex mb-2">
+                            <span class="fa fa-home"></span>
+                               <div class="ml-1">
+                                    <ul>
+                                        <li>97845 Baker st. 567</li><li>97845 Baker st. 567</li>
+                                    </ul>
+                               </div>
+                          </li>
+                          <li class="mb-2"><span class="fa fa-volume-control-phone"></span>+94 423-23-221</li>
+                          <li class="mb-2"><span class="fa fa-envelope"></span>Info@domain.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-6 col-sm-6">
+                    <div class="footer-link-wrapper text-left">
+                      <h4 onclick="myFunCollapse('subscribe');">Keep In Touch</h4>
+                        <ul  class="subscribe">
+                            <li><div class="subscribe-area d-flex">
+                                <input type="email" placeholder="Email">
+                                <input type="submit" value="Go">
+                            </div>
+                        </li>
+                        </ul>
+                       <div class="social-link mt-5">
+                           <h4 onclick="myFunCollapse('socialLink');">Follow Us</h4>
+                           <ul class="pt-2 socialLink">
+                               <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                               <li><a href="https://www.facebook.com/"><i class="fa fa-twitter"></i></a></li>
+                               <li><a href="https://www.facebook.com/"><i class="fa fa-instagram"></i></a></li>
+                               <li><a href="https://www.facebook.com/"><i class="fa fa-linkedin"></i></a></li>
+                           </ul>
+                       </div>  
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <footer id="footer-botom" class="pb-3">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6 col-lg-6 col-12 col-sm-12">
+                     <ul class="d-flex footerUl">
+                         <li><a href="#">English<i class="fa fa-globe"></i></a></li>
+                         <li><a href="#">English<i class="fa fa-angle-down"></i></a></li>
+                         <li><img src="img/footer/cards_all.svg" alt=""></li>
+                     </ul>
+                 </div>
+                <div class="col-md-6 col-lg-6 col-12 col-sm-12 d-flex  justify-content-end">
+                    <ul class="d-flex footerUl-right ">
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#"><i class="fa fa-copyright"></i>taijul</a></li> 
+                    </ul>
+                </div>
+             </div>
+         </div>
+    </footer>
+    
+   
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   <script src="/assets/plugin/js/owl.carousel.min.js"></script>
+  <script src="/assets/plugin/js/jquery.sticky.js"></script>
+   <script src="script.js"></script>
+   <script src="home.js"></script>
+   
+      
+ </body>
+</html>
