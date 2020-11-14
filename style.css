@@ -601,7 +601,7 @@ lazy-area-start */
   position: relative;
   overflow: hidden;
   height: 400px;
-  background: url(img/item/owner2.jpg);
+  background: url(./img/item/owner2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
